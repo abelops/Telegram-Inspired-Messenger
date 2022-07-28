@@ -1,10 +1,26 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+
 div::-webkit-scrollbar-track{
   border-radius: 5px;
+  visibility: hidden;
+  transition: .4s;
 }
-::-webkit-scrollbar-thumb{
+div::-webkit-scrollbar-thumb{
   background-color: grey;
   border-radius: 5px;
+  visibility: hidden;
+  transition: .4s;
+}
+div:active::-webkit-scrollbar-thumb,
+div:focus::-webkit-scrollbar-thumb,
+:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}div::-webkit-scrollbar-thumb: hover{
+  display: block;
+}
+.texta{
+  min-height: 35px;
+  max-height: 120px;
 }

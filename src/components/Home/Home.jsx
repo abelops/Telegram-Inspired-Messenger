@@ -1,6 +1,7 @@
 import LeftBar from './Leftbar/LeftBar';
 import RightBar from './Rightbar/RightBar';
-import {MenuIcon, DotsVerticalIcon, PaperClipIcon} from '@heroicons/react/solid';
+import {MenuIcon, DotsVerticalIcon} from '@heroicons/react/solid';
+import {MicrophoneIcon, PaperClipIcon, VideoCameraIcon} from '@heroicons/react/outline';
 
 const UserInfoContainer = ()=>{
 	return(
@@ -17,8 +18,13 @@ const UserInfoContainer = ()=>{
 }
 
 const BottomSection = ()=>{
-	return(<div className="bg-slate-800 h-12 w-full fixed bottom-0">
-		<PaperClipIcon />
+	return(<div className="bg-slate-800 h-fit py-2 w-full flex fixed items-center px-2 bottom-0 gap-2">
+		<PaperClipIcon className="h-6 text-slate-300 cursor-pointer"/>
+		<textarea type="text" placeholder="Message" className="h-8 pt-2 texta w-[30%] focus:outline-0 pl-2 bg-inherit"/>
+		<div className=" flex items-center gap-2 h-6 w-20">
+			<MicrophoneIcon className="h-full text-slate-300 cursor-pointer"/>
+			<VideoCameraIcon className="h-full text-slate-300 cursor-pointer"/>
+		</div>
 	 </div>)
 }
 
