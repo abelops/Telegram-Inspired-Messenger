@@ -2,8 +2,8 @@
 <h1>This is Telegram inspired web app that comes with some additional features.</h1>
 
 <h3>🚀Features to be added </h3>
-<p>✅Channels&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp✅Bots</p>
-<p>✅Groups&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp✅Builtin Browser</p>
-<p>✅Voice Chat&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp✅Mini games</p>
+  <p>✅Channels</p><span align="center">✅Bots</span>
+  <p>✅Groups</p><span align="center">✅Builtin Browser</span>
+  <p>✅Voice Chat</p><span align="center">✅Mini games</span>
 <p>✅Video Chat</p>
 <p>✅Music player</p>
